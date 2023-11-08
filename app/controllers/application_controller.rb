@@ -16,6 +16,8 @@ class ApplicationController < ActionController::Base
   # End hacks.
   ##############################################################################
   
+  #comment for pull request
+  
   before_action :authenticate_user!
 
   include Pundit
